@@ -1,0 +1,3 @@
+<launch>
+ <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /home/tanmay/catkin_ws/src/rtabmap_ros/stereo_outdoorA.bag"/>
+</launch>

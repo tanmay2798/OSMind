@@ -1,0 +1,3 @@
+<launch>
+ <node pkg="rosbag" type="record" name="recorded" output="screen" args=" /stereo_camera/left/image_color"/>
+</launch>
